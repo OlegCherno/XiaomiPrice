@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="GetXiaomi" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="835,4429" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="GetXiaomi" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="835,4193" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -86,7 +86,7 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Xiaomi (Comfy, Eldorado, Hotline)" sap:VirtualizedContainerService.HintSize="552,4364" sap2010:WorkflowViewState.IdRef="Sequence_10">
+  <Sequence DisplayName="Xiaomi (Comfy, Eldorado, Hotline)" sap:VirtualizedContainerService.HintSize="509,4128" sap2010:WorkflowViewState.IdRef="Sequence_10">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractComfy" />
       <Variable x:TypeArguments="sd:DataTable" Default="[new System.Data.DataTable]" Name="ExtractEldorado" />
@@ -97,17 +97,18 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BuildDataTable DataTable="{x:Null}" DisplayName="Build Data Table for Comfy, Eldorado, Hotline" sap:VirtualizedContainerService.HintSize="510,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;PhoneName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;URLSite&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName /&gt;&#xA;&lt;/NewDataSet&gt;" />
-    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser Comfy" sap:VirtualizedContainerService.HintSize="510,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_9" Url="https://comfy.ua/ua/smartfon/brand__xiaomi/">
+    <ui:BuildDataTable DataTable="{x:Null}" DisplayName="Build Data Table for Comfy, Eldorado, Hotline" sap:VirtualizedContainerService.HintSize="467,59" sap2010:WorkflowViewState.IdRef="BuildDataTable_3" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;PhoneName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;URL&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Price&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;URLSite&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;  &lt;TableName /&gt;&#xA;&lt;/NewDataSet&gt;" />
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser Comfy" sap:VirtualizedContainerService.HintSize="467,167" sap2010:WorkflowViewState.IdRef="OpenBrowser_9" Url="https://comfy.ua/ua/smartfon/brand__xiaomi/">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,436" sap2010:WorkflowViewState.IdRef="Sequence_33">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="228,66" sap2010:WorkflowViewState.IdRef="Sequence_33">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser '        X Page'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="BrowserScope_9" InformativeScreenshot="a6b7d84b7cf9071dfca5eb7c38dfc2e5" Selector="&lt;html app='chrome.exe' title='ТЕЛЕФОНИ XIAOMI купити в Києві, Україні ᐈ Смартфони Xiaomi ціна в інтернет магазині Comfy (Комфі)' /&gt;">
@@ -140,12 +141,12 @@
       </ui:OpenBrowser.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:OpenBrowser>
-    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser Eldorado" sap:VirtualizedContainerService.HintSize="510,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_8" Url="https://eldorado.ua/smartphones/c1038946/producer=xiaomi/">
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser Eldorado" sap:VirtualizedContainerService.HintSize="467,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_8" Url="https://eldorado.ua/smartphones/c1038946/producer=xiaomi/">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -192,7 +193,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:OpenBrowser>
-    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser Allo" sap:VirtualizedContainerService.HintSize="510,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_11" Url="https://allo.ua/ua/products/mobile/proizvoditel-xiaomi/">
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser Allo" sap:VirtualizedContainerService.HintSize="467,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_11" Url="https://allo.ua/ua/products/mobile/proizvoditel-xiaomi/">
       <ui:OpenBrowser.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -239,7 +240,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:OpenBrowser>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractComfy]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="510,51" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractComfy]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="467,51" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
@@ -262,7 +263,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachRow>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractEldorado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="510,51" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractEldorado]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="467,51" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
@@ -285,7 +286,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachRow>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractAllo]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="510,403" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[ExtractAllo]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="467,51" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
@@ -303,12 +304,12 @@
       </ui:ForEachRow.Body>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachRow>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" ProviderName="System.Data.OleDb" Sql="delete * from Comfy">
+    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_1" ProviderName="System.Data.OleDb" Sql="delete * from Comfy">
       <ui:ExecuteNonQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteNonQuery.Parameters>
@@ -319,7 +320,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_2" ProviderName="System.Data.OleDb" Sql="delete * from Eldorado">
+    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_2" ProviderName="System.Data.OleDb" Sql="delete * from Eldorado">
       <ui:ExecuteNonQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteNonQuery.Parameters>
@@ -330,7 +331,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_3" ProviderName="System.Data.OleDb" Sql="delete * from Allo">
+    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_3" ProviderName="System.Data.OleDb" Sql="delete * from Allo">
       <ui:ExecuteNonQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteNonQuery.Parameters>
@@ -341,7 +342,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractComfy]" DisplayName=".Insert" sap:VirtualizedContainerService.HintSize="510,115" sap2010:WorkflowViewState.IdRef="InsertDataTable_3" ProviderName="System.Data.OleDb" TableName="Comfy">
+    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractComfy]" DisplayName=".Insert" sap:VirtualizedContainerService.HintSize="467,115" sap2010:WorkflowViewState.IdRef="InsertDataTable_3" ProviderName="System.Data.OleDb" TableName="Comfy">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -349,7 +350,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InsertDataTable>
-    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractEldorado]" DisplayName=".Insert" sap:VirtualizedContainerService.HintSize="510,115" sap2010:WorkflowViewState.IdRef="InsertDataTable_4" ProviderName="System.Data.OleDb" TableName="Eldorado">
+    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractEldorado]" DisplayName=".Insert" sap:VirtualizedContainerService.HintSize="467,115" sap2010:WorkflowViewState.IdRef="InsertDataTable_4" ProviderName="System.Data.OleDb" TableName="Eldorado">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -357,7 +358,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InsertDataTable>
-    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractAllo]" DisplayName=".Insert" sap:VirtualizedContainerService.HintSize="510,115" sap2010:WorkflowViewState.IdRef="InsertDataTable_6" ProviderName="System.Data.OleDb" TableName="Allo">
+    <ui:InsertDataTable AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractAllo]" DisplayName=".Insert" sap:VirtualizedContainerService.HintSize="467,115" sap2010:WorkflowViewState.IdRef="InsertDataTable_6" ProviderName="System.Data.OleDb" TableName="Allo">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -365,7 +366,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InsertDataTable>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_4" ProviderName="System.Data.OleDb" Sql="update Eldorado set Price = Price + '₴'">
+    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_4" ProviderName="System.Data.OleDb" Sql="update Eldorado set Price = Price + '₴'">
       <ui:ExecuteNonQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteNonQuery.Parameters>
@@ -376,7 +377,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_5" ProviderName="System.Data.OleDb" Sql="update ALLO set Price = Price + '₴'">
+    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_5" ProviderName="System.Data.OleDb" Sql="update ALLO set Price = Price + '₴'">
       <ui:ExecuteNonQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteNonQuery.Parameters>
@@ -387,7 +388,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_6" ProviderName="System.Data.OleDb" Sql="update Allo set PhoneName = 'Смартфон ' + PhoneName">
+    <ui:ExecuteNonQuery AffectedRecords="{x:Null}" ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DisplayName=".Execute Non Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteNonQuery_6" ProviderName="System.Data.OleDb" Sql="update Allo set PhoneName = 'Смартфон ' + PhoneName">
       <ui:ExecuteNonQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteNonQuery.Parameters>
@@ -398,7 +399,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteNonQuery>
-    <ui:ClearDataTable DataTable="[ExtractComfy]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="510,79" sap2010:WorkflowViewState.IdRef="ClearDataTable_1">
+    <ui:ClearDataTable DataTable="[ExtractComfy]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="467,79" sap2010:WorkflowViewState.IdRef="ClearDataTable_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -406,7 +407,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ClearDataTable>
-    <ui:ClearDataTable DataTable="[ExtractEldorado]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="510,79" sap2010:WorkflowViewState.IdRef="ClearDataTable_2">
+    <ui:ClearDataTable DataTable="[ExtractEldorado]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="467,79" sap2010:WorkflowViewState.IdRef="ClearDataTable_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -414,7 +415,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ClearDataTable>
-    <ui:ClearDataTable DataTable="[ExtractAllo]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="510,79" sap2010:WorkflowViewState.IdRef="ClearDataTable_3">
+    <ui:ClearDataTable DataTable="[ExtractAllo]" DisplayName="Clear Data Table" sap:VirtualizedContainerService.HintSize="467,79" sap2010:WorkflowViewState.IdRef="ClearDataTable_3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -422,7 +423,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ClearDataTable>
-    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractComfy]" DisplayName=".Execute Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" ProviderName="System.Data.OleDb" Sql="select *from Comfy">
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractComfy]" DisplayName=".Execute Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" ProviderName="System.Data.OleDb" Sql="select *from Comfy">
       <ui:ExecuteQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteQuery.Parameters>
@@ -433,7 +434,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteQuery>
-    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractEldorado]" DisplayName=".Execute Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" ProviderName="System.Data.OleDb" Sql="select *from Eldorado">
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractEldorado]" DisplayName=".Execute Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" ProviderName="System.Data.OleDb" Sql="select *from Eldorado">
       <ui:ExecuteQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteQuery.Parameters>
@@ -444,7 +445,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteQuery>
-    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractAllo]" DisplayName=".Execute Query" sap:VirtualizedContainerService.HintSize="510,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_3" ProviderName="System.Data.OleDb" Sql="select *from Allo">
+    <ui:ExecuteQuery ContinueOnError="{x:Null}" ExistingDbConnection="{x:Null}" TimeoutMS="{x:Null}" CommandType="Text" ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\XiaomiPrice\XiaomiPrice.accdb" DataTable="[ExtractAllo]" DisplayName=".Execute Query" sap:VirtualizedContainerService.HintSize="467,88" sap2010:WorkflowViewState.IdRef="ExecuteQuery_3" ProviderName="System.Data.OleDb" Sql="select *from Allo">
       <ui:ExecuteQuery.Parameters>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:ExecuteQuery.Parameters>
@@ -455,10 +456,10 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ExecuteQuery>
-    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="510,79" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="Comfy.xlsx" />
-    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="510,79" sap2010:WorkflowViewState.IdRef="DeleteFileX_2" Path="Eldorado.xlsx" />
-    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="510,79" sap2010:WorkflowViewState.IdRef="DeleteFileX_3" Path="Allo.xlsx" />
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="510,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_4" InstanceCachePeriod="3000" Visible="False" WorkbookPath="Out\Comfy">
+    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="467,79" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="Out\Comfy.xlsx" />
+    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="467,79" sap2010:WorkflowViewState.IdRef="DeleteFileX_2" Path="Out\Eldorado.xlsx" />
+    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="467,79" sap2010:WorkflowViewState.IdRef="DeleteFileX_3" Path="Out\Allo.xlsx" />
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="467,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_4" InstanceCachePeriod="3000" Visible="False" WorkbookPath="Out\Comfy">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
@@ -475,7 +476,7 @@
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
     </ui:ExcelApplicationScope>
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="510,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" InstanceCachePeriod="3000" Visible="False" WorkbookPath="Out\Eldorado">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="467,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_6" InstanceCachePeriod="3000" Visible="False" WorkbookPath="Out\Eldorado">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
@@ -492,7 +493,7 @@
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
     </ui:ExcelApplicationScope>
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="510,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" InstanceCachePeriod="3000" Visible="False" WorkbookPath="Out\Allo">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="467,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" InstanceCachePeriod="3000" Visible="False" WorkbookPath="Out\Allo">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
